@@ -1,8 +1,9 @@
 {
-  "name": "tempconverter",
+  "name": "@aritramondal855/tempconverter",
   "version": "1.0.2",
   "description": "A simple JavaScript app to convert Celcius to Fahrenheit and vice-versa.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Brainstormed/tempConverter/issues"
   },
-  "homepage": "https://github.com/Brainstormed/tempConverter#readme"
+  "homepage": "https://github.com/Brainstormed/tempConverter#readme",
+  "dependencies": {
+    "@aritramondal855/tempconverter": "^1.0.2"
+  }
 }
