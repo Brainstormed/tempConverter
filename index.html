@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Convert temperature units</title>
+  </head>
+  <body>
+    <h1>A UTILITY TO CONVERT TEMPERATURE UNITS</h1>
+    <div id="num">
+      <button id="from" class="sub" onclick="fromSub()">-</button>
+      <p id="amount">0</p>
+      <button id="from" class="add" onclick="fromAdd()">+</button>
+    </div>
+    <div id="from-unit">
+      <button id="prvs" onclick="prvsItemF()">&lt;</button>
+      <p id="from-unit-unit"></p>
+      <button id="nxt" onclick="nxtItemF()">&gt;</button>
+    </div>
+    <div id="to-unit">
+      <button id="prvs" onclick="prvsItemT()">&lt;</button>
+      <p id="to-unit-unit"></p>
+      <button id="nxt" onclick="nxtItemT()">&gt;</button>
+    </div>
+    <button id="calculate" onclick="calc()">Convert</button>
+    <div id="answer"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
