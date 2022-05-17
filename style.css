@@ -54,7 +54,11 @@ h1 {
 #num > button:hover,
 #from-unit > button:hover,
 #to-unit > button:hover,
-#calculate:hover {
+#calculate:hover,
+#num > button:focus,
+#from-unit > button:focus,
+#to-unit > button:focus,
+#calculate:focus {
   transition: all 100ms ease;
   background-color: hsl(14, 90%, 80%);
   transform: translateY(-5%);
